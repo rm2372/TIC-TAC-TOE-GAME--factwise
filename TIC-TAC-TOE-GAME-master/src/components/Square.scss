@@ -1,0 +1,28 @@
+// Square.scss
+.square {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #eee;
+  border-radius: 50%; // Keeping it square, change to 50% if you want circles
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  background-color: white;
+
+  span {
+    display: block;
+    position: relative;
+    width: 70%;
+    height: 70%;
+    font-size: 2rem; // Adjust the font size for icons
+    color: #333;
+
+    &.x {
+      color: #161717;
+    }
+
+    &.o {
+      color: #46ff2e;
+    }
+  }
+}
